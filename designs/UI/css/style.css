@@ -95,8 +95,27 @@ END OF INDEX PAGE CSS
 .boo {
 	height: auto;
 	width: 20%;	
+	text-align: center;
 }
 
 .boo img {
 	width: 90%;
 }
+
+#booky .boo button {
+	padding: 0% 10%;
+	position: absolute;
+	top: 90%;
+	left: 30%;
+}
+
+#booky button:hover {
+	
+}
+
+/*
+
+END OF BOOKS PAGE CSS
+
+*/
+
