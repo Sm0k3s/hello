@@ -6,17 +6,46 @@ body{
 	margin: 0 auto;
 	padding: 0;
 }
+.container{
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0;
+}
 .top {
 	position: absolute;
 	top: 0;
 	left: 0;
 }
 nav {
+	background-color: #30383b;
 	z-index: 2;
 }
 
+nav h2 {
+	color: #f2c608;
+	font-family: 'Dancing Script', cursive;
+}
+
 .sign{
-	background-color: #345;
+	background-color: #30383b;
+	cursor: pointer;
+	border: 1px solid #f2c608;
+	border-radius: 2px;
+	color: #f2c608;
+	transition: 0.8s;
+}
+
+.book{
+	font-family: Helvetica,Arial, sans-serif;
+	font-size: 1.5rem;
+	padding: 5px 20px;
+	border-width: 0px; 
+}
+
+.sign:hover{
+	background-color: #f2c608;
+	color: #30383b;
+	transition: 0.8s;
 }
 
 .image {
@@ -33,7 +62,12 @@ nav {
 .text {
 	position: absolute;
 	top: 50%;
-	width: 100%;
+	width: 85%;
 	text-align: center;
-	opacity: 0.99
+	z-index: 3;
+}
+
+.books{
+	position: relative;
+	top: 100%;
 }
