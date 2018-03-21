@@ -23,6 +23,7 @@ nav {
 
 nav h2 {
 	color: #f2c608;
+	font-size: 2rem;
 	font-family: 'Dancing Script', cursive;
 }
 
@@ -70,4 +71,32 @@ nav h2 {
 .books{
 	position: relative;
 	top: 100%;
+}
+/* 
+
+
+END OF INDEX PAGE CSS
+
+
+*/
+
+.navbar-light .navbar-nav .nav-link {
+	color: #f2c608;
+	transition: 0.8s;
+}
+.col {
+	margin: 1rem;
+}
+
+#booky {
+	background: #f2f2f2;
+}
+
+.boo {
+	height: auto;
+	width: 20%;	
+}
+
+.boo img {
+	width: 90%;
 }
