@@ -136,3 +136,14 @@ END OF BOOKS PAGE CSS
 	z-index: 3;
 	color: #30383b;
 }
+
+/*
+
+BEGINNING OF HISTORY PAGE
+
+*/
+
+.para p {
+	text-align: center;
+	font-size: 1.5rem;
+}
