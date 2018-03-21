@@ -125,10 +125,14 @@ END OF BOOKS PAGE CSS
 }
 
 .signup{
-	width: 33%;
+	padding: 10px 15px;
+	border-radius: 5px;
 	position: absolute;
 	top: 20%;
-	width: 85%;
+	left: 33%;
+	width: 33%;
 	text-align: center;
+	background: #f2b11b;
 	z-index: 3;
+	color: #30383b;
 }
