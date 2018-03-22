@@ -171,3 +171,39 @@ PROFILE PAGE BEGINS HERE
 	background-position: center;
 	background-size: cover;
 }
+
+/*
+
+ADMIN PAGE CSS BEGINS HERE
+
+*/
+.board{
+	background-color: #d7801e;
+	height: 100vh;
+	overflow: hidden;
+}
+.dash {
+	background-color: #d7801e;
+	text-align: center;
+}
+.dash ul {
+	padding: 3px 0px;
+	height: 100vh;
+	background-color: #30383b;
+}
+.dash li {
+	border-radius: 5px;
+	border: 1px solid #f2b11b;
+	width: 90%;
+	margin: 2px auto;
+	background-color: #30383b;
+}
+
+.dash a {
+	color: #f2f2f2;
+	transition: 0.7s;
+}
+.dash a:hover{
+	color: #f2c608;
+}
+
