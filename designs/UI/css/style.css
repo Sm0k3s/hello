@@ -63,7 +63,7 @@ nav h2 {
 .text {
 	position: absolute;
 	top: 50%;
-	width: 85%;
+	margin: 0 33%;
 	text-align: center;
 	z-index: 3;
 }
